@@ -67,7 +67,7 @@ Os seguintes endpoints foram implementados conforme exigido:
 
 ### 💡 Tecnologias utilizadas
 
-- .NET 8  
+- .NET 9  
 - NHibernate 5.5.2  
 - RabbitMQ.Client  
 - MySQL 8  
