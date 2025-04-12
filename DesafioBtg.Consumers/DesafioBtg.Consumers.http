@@ -1,0 +1,6 @@
+@DesafioBtg.Consumers_HostAddress = http://localhost:5090
+
+GET {{DesafioBtg.Consumers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,153 @@
+
+# Arquivos binários e de objeto
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.dll
+
+# Arquivos de pacotes
+packages/
+*.nupkg
+*.snupkg
+
+# Arquivos gerados durante a compilação
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pdb
+*.ilk
+*.aps
+*.pch
+*.vspscc
+*_[Rr]esx
+*.resharper
+*.dotCover
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+*.jfm
+
+# Pasta do Visual Studio
+.vs/
+
+# Pastas específicas do Visual Studio Code
+.vscode/
+
+# Pastas de backup de arquivos gerados automaticamente
+_Backups/
+mysql-data/
+
+# Arquivos de configuração locais que podem incluir credenciais
+appsettings.local.json
+appsettings.development.json
+
+# Arquivos de configuração do IIS Express
+*.csproj.user
+*.publishsettings
+
+# Artefatos do Rider
+.idea/
+
+# Arquivos de desenvolvimento local
+launchSettings.json
+
+# Nodemon
+.nodemonignore
+nodemon.json
+
+# NPM
+node_modules/
+npm-debug.log
+
+# Arquivos temporários criados pelo sistema operacional
+*.swp
+*.*~
+*.db
+
+# Arquivos de cache de ferramentas
+.cache
+*.cache/
+*.VisualState.xml
+project.lock.json
+project.fragment.lock.json
+artifact.properties
+
+# Arquivos de saída de ferramentas de análise de código
+Generated_Code/
+*.Metrics.xml
+*.StyleCop.*
+
+# Arquivos de saída de testes
+TestResults/
+test.runsettings
+
+# Arquivos de dump
+*.dmp
+
+# Outros arquivos de ambiente de desenvolvimento
+*.ser
+
+# Projeto SandBox
+/Clinica.DoPovo.Sandbox/
+
+# Arquivos de publicação
+publish/
+
+# Excluir todos os arquivos de configuração .json, exceto o appsettings.json
+*.json
+!appsettings.json
+ClinicaDoPovo.sql
+coveragereport/class.js
+coveragereport/Clinica.DoPovo.Dominio_AuditoriaConsulta.html
+coveragereport/Clinica.DoPovo.Dominio_AuditoriaConsultaListarFiltro.html
+coveragereport/Clinica.DoPovo.Dominio_AuditoriasConsultasServico.html
+coveragereport/Clinica.DoPovo.Dominio_Consulta.html
+coveragereport/Clinica.DoPovo.Dominio_ConsultaEditarComando.html
+coveragereport/Clinica.DoPovo.Dominio_ConsultaInstanciarComando.html
+coveragereport/Clinica.DoPovo.Dominio_ConsultasServico.html
+coveragereport/Clinica.DoPovo.Dominio_Especialidade.html
+coveragereport/Clinica.DoPovo.Dominio_EspecialidadeEditarComando.html
+coveragereport/Clinica.DoPovo.Dominio_EspecialidadeInstanciarComando.html
+coveragereport/Clinica.DoPovo.Dominio_EspecialidadesServico.html
+coveragereport/Clinica.DoPovo.Dominio_Generated.html
+coveragereport/Clinica.DoPovo.Dominio_SegurancasServico.html
+coveragereport/Clinica.DoPovo.Dominio_Usuario.html
+coveragereport/Clinica.DoPovo.Dominio_UsuarioEditarComando.html
+coveragereport/Clinica.DoPovo.Dominio_UsuarioEspecialidadeComando.html
+coveragereport/Clinica.DoPovo.Dominio_UsuarioInstanciarComando.html
+coveragereport/Clinica.DoPovo.Dominio_UsuariosServico.html
+coveragereport/icon_cog.svg
+coveragereport/icon_cog_dark.svg
+coveragereport/icon_cube.svg
+coveragereport/icon_cube_dark.svg
+coveragereport/icon_down-dir_active.svg
+coveragereport/icon_down-dir_active_dark.svg
+coveragereport/icon_fork.svg
+coveragereport/icon_fork_dark.svg
+coveragereport/icon_info-circled.svg
+coveragereport/icon_info-circled_dark.svg
+coveragereport/icon_minus.svg
+coveragereport/icon_minus_dark.svg
+coveragereport/icon_plus.svg
+coveragereport/icon_plus_dark.svg
+coveragereport/icon_search-minus.svg
+coveragereport/icon_search-minus_dark.svg
+coveragereport/icon_search-plus.svg
+coveragereport/icon_search-plus_dark.svg
+coveragereport/icon_sponsor.svg
+coveragereport/icon_star.svg
+coveragereport/icon_star_dark.svg
+coveragereport/icon_up-dir.svg
+coveragereport/icon_up-dir_active.svg
+coveragereport/icon_wrench.svg
+coveragereport/icon_wrench_dark.svg
+coveragereport/index.htm
+coveragereport/index.html
+coveragereport/main.js
+coveragereport/report.css
+*.csv
+*.html
+*.txt

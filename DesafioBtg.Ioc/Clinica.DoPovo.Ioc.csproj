@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="14.0.0" />
+	<PackageReference Include="FluentNHibernate" Version="3.4.1" />
+	<PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+	<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.2" />
+	<PackageReference Include="MySql.Data" Version="9.2.0" />
+	<PackageReference Include="MySqlConnector" Version="2.4.0" />
+	<PackageReference Include="NHibernate" Version="5.5.2" />
+	<PackageReference Include="Polly" Version="8.5.2" />
+	<PackageReference Include="Polly.Extensions" Version="8.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinica.DoPovo.Aplicacao\Clinica.DoPovo.Aplicacao.csproj" />
+    <ProjectReference Include="..\Clinica.DoPovo.Dominio\Clinica.DoPovo.Dominio.csproj" />
+    <ProjectReference Include="..\Clinica.DoPovo.Infra\Clinica.DoPovo.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
